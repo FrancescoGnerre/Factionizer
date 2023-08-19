@@ -2,152 +2,152 @@
   "factions":[
     {
       "f_name": "Arborec",
-      "f_ID": 1,
-      "f_home_system_id": 
+      "f_ID": 01,
+      "f_home_system_id": 05,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Barony of Letnev",
-      "f_ID": 2,
-      "f_home_system_id":
+      "f_ID": 02,
+      "f_home_system_id": 10,
       "f_expansion": "Base",
-    }
+    },
     {
       "f_name": "Clan of Saar",
-      "f_ID": 3,
-      "f_home_system_id":
+      "f_ID": 03,
+      "f_home_system_id": 11,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Embers of Muaat",
-      "f_ID": 4,
-      "f_home_system_id":
+      "f_ID": 04,
+      "f_home_system_id": 04,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Emirates of Hacan",
-      "f_ID": 5,
-      "f_home_system_id":
+      "f_ID": 05,
+      "f_home_system_id": 16,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Federation of Sol",
-      "f_ID": 6,
-      "f_home_system_id":
+      "f_ID": 06,
+      "f_home_system_id": 01,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Ghosts of Creuss",
-      "f_ID": 7,
-      "f_home_system_id":
+      "f_ID": 07,
+      "f_home_system_id": 17,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "L1Z1X Mindnet",
-      "f_ID": 8,
-      "f_home_system_id":
+      "f_ID": 08,
+      "f_home_system_id": 06,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Mentak Coalition"
-      "f_ID": 9,
-      "f_home_system_id":
+      "f_ID": 09,
+      "f_home_system_id": 02,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Naalu Collectionve",
       "f_ID": 10,
-      "f_home_system_id":
+      "f_home_system_id": 09,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Nekro Virus",
       "f_ID": 11,
-      "f_home_system_id":
+      "f_home_system_id": 08,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Sardakk N'orr",
       "f_ID": 12,
-      "f_home_system_id":
+      "f_home_system_id": 13,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Universities of Jol-Nar",
       "f_ID": 13,
-      "f_home_system_id":
+      "f_home_system_id": 12,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "The Winnu",
       "f_ID": 14,
-      "f_home_system_id":
+      "f_home_system_id": 07,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Xxcha Kingdom",
       "f_ID": 15,
-      "f_home_system_id":
+      "f_home_system_id": 14,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Yin Brotherhood",
       "f_ID": 16,
-      "f_home_system_id":
+      "f_home_system_id": 03,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Yssaril Tribes",
       "f_ID": 17,
-      "f_home_system_id":
+      "f_home_system_id": 15,
       "f_expansion": "Base"
-    }
+    },
     {
       "f_name": "Argent Flight",
       "f_ID": 18,
-      "f_home_system_id":
+      "f_home_system_id": 58,
       "f_expansion": "Prophecy of Kings"
-    }
+    },
     {
       "f_name": "The Empyrean",
       "f_ID": 19,
-      "f_home_system_id":
+      "f_home_system_id": 56,
       "f_expansion": "Prophecy of Kings"
-    }
+    },
     {
       "f_name": "Mahact Gene-Sorcerers",
       "f_ID": 20,
-      "f_home_system_id":
+      "f_home_system_id": 52, 
       "f_expansion": "Prophecy of Kings"
-    }
+    },
     {
       "f_name": "Naaz-Rokha Alliance",
       "f_ID": 21,
-      "f_home_system_id":
+      "f_home_system_id": 57,
       "f_expansion": "Prophecy of Kings"
-    }
+    },
     {
       "f_name": "The Nomad",
       "f_ID": 22,
-      "f_home_system_id":
+      "f_home_system_id": 53,
       "f_expansion": "Prophecy of Kings"
-    }
+    },
     {
       "f_name": "Titans of Ul",
       "f_ID": 23,
-      "f_home_system_id":
+      "f_home_system_id": 55,
       "f_expansion": "Prophecy of Kings"
-    }
+    },
     {
       "f_name": "Vuil'Rath Cabal",
       "f_ID": 24,
-      "f_home_system_id":
+      "f_home_system_id": 54,
       "f_expansion": "Prophecy of Kings"
-    }
+    },
     {
-      "f_name":
+      "f_name": "Council of Keleres",
       "f_ID": 25,
-      "f_home_system_id":
+      "f_home_system_id": null,
       "f_expansion": "Codex III"
     }
   ]
