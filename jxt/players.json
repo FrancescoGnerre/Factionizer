@@ -1,8 +1,16 @@
 {
   "players":[
-    "p_name":"francesco",
-    "p_faction_a": "A",
-    "p_faction_b": "B",
-    "p_faction_c": "C"
+    {
+      "p_name":"Francesco",
+      "p_faction_a":"A",
+      "p_faction_b":"B",
+      "p_faction_c":"C"
+    },
+    {
+      "p_name":"Melanie",
+      "p_faction_a":"A1",
+      "p_faction_b":"B1",
+      "p_faction_c":"C"
+    }
   ]
 }

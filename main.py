@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import json
 
 app = Flask(__name__)
-pOpen = open('jxt/players.json')
+pOpen = open('jxt//players.json')
 pList = json.load(pOpen)
 
 

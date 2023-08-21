@@ -14,12 +14,12 @@
         <button type="button">Start Game</button>
         <button type="button">Settings</button>
       </p>
-      <p>
+     <div>
         {% for player in players %}
           <div>
             {{player["p_name"]}}
           </div>
         {% endfor %}
-      </p>
+      </div>
   </body>
 </html>
