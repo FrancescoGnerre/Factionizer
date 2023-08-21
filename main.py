@@ -1,11 +1,14 @@
 from flask import Flask, render_template
+import json
 
 app = Flask(__name__)
+pOpen = open('jxt/players.json')
+pList = json.load(pOpen)
 
 
 @app.route("/")
 def main_screen():
-  return render_template('home.html')
+  return render_template('home.html', players=pList)
 
 
 @app.route("/settings")
