@@ -8,17 +8,16 @@
   </head>
   <body>
     <h1>A website to automate the start/setup of TI4 games</h1>
-      <p>
+      <div>
         <button type="button">Add Player</button>
         <button type="button">Clear Players</button>
         <button type="button">Start Game</button>
         <button type="button">Settings</button>
-      </p>
+      </div>
+    <div>{{players}}</div>
      <div>
         {% for player in players %}
-          <div>
-            {{player["p_name"]}}
-          </div>
+          <div>{{player['p_name']}}</div>
         {% endfor %}
       </div>
   </body>

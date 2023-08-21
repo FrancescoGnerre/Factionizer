@@ -2,13 +2,25 @@ from flask import Flask, render_template
 import json
 
 app = Flask(__name__)
-pOpen = open('jxt//players.json')
-pList = json.load(pOpen)
+#p_Open = open('jxt//players.json')
+#p_temp = json.load(p_Open)
+#p_List = json.loads(p_temp)
+p_List = [{
+  "p_name": "Francesco",
+  "p_faction_a": "A",
+  "p_faction_b": "B",
+  "p_faction_c": "C"
+}, {
+  "p_name": "Melanie",
+  "p_faction_a": "A1",
+  "p_faction_b": "B1",
+  "p_faction_c": "C"
+}]
 
 
 @app.route("/")
 def main_screen():
-  return render_template('home.html', players=pList)
+  return render_template('home.html', players=p_List)
 
 
 @app.route("/settings")
