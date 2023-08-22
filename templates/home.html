@@ -14,10 +14,9 @@
         <button type="button">Start Game</button>
         <button type="button">Settings</button>
       </div>
-    <div>{{players}}</div>
      <div>
         {% for player in players %}
-          <div>{{player['p_name']}}</div>
+          {% include 'playerfor.html' %}
         {% endfor %}
       </div>
   </body>

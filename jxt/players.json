@@ -4,13 +4,23 @@
       "p_name":"Francesco",
       "p_faction_a":"A",
       "p_faction_b":"B",
-      "p_faction_c":"C"
+      "p_faction_c":"C",
+      "p_blue_1": "U1",
+      "p_blue_2": "U2",
+      "p_blue_3": "U3",
+      "p_red_1": "R1",
+      "p_red_2": "R2"
     },
     {
       "p_name":"Melanie",
       "p_faction_a":"A1",
       "p_faction_b":"B1",
-      "p_faction_c":"C"
+      "p_faction_c":"C",
+      "p_blue_1": "U1",
+      "p_blue_2": "U2",
+      "p_blue_3": "U3",
+      "p_red_1": "R1",
+      "p_red_2": "R2"
     }
   ]
 }
