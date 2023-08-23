@@ -1,5 +1,6 @@
 from flask import Flask, render_template
 import json
+import jsonify
 
 app = Flask(__name__)
 #p_Open = open('jxt//players.json')
@@ -31,6 +32,11 @@ p_List = [{
 @app.route("/")
 def main_screen():
   return render_template('home.html', players=p_List)
+
+
+@app.route("/api/players")
+def list_players():
+  return jsonify(p_List)
 
 
 @app.route("/settings")

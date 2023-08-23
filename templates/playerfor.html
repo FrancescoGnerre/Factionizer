@@ -1,9 +1,13 @@
-<div>
-  <h4>{{player['p_name']}}</h4>
-    Factions:
-  <div>{{player['p_faction_a']}}; {{player['p_faction_b']}}; {{player['p_faction_c']}};</div>
-    Tiles:
-  <div> {{player['p_blue_1']}}; {{player['p_blue_2']}}; {{player['p_blue_3']}};</div>
-  <div> {{player['p_red_1']}}; {{player['p_red_2']}};</div>
-  <button type="button">Remove Player</button>
+<div class="row">
+  <div class="col-9">
+    <h4>{{player['p_name']}}</h4>
+      Factions:
+    <div>{{player['p_faction_a']}}; {{player['p_faction_b']}}; {{player['p_faction_c']}};</div>
+      Tiles:
+    <div> {{player['p_blue_1']}}; {{player['p_blue_2']}}; {{player['p_blue_3']}};</div>
+    <div> {{player['p_red_1']}}; {{player['p_red_2']}};</div>
+  </div>
+  <div class="col-3">
+    <button type="button">Remove Player</button>
+  </div>
 </div>
