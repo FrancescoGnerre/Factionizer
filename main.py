@@ -26,6 +26,8 @@ p_List = [{
   "p_blue_3": "U31",
   "p_red_1": "R11",
   "p_red_2": "R21"
+}, {
+  "p_name": "Luciano"
 }]
 
 
