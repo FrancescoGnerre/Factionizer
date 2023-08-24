@@ -5,7 +5,7 @@ function toSettings(){
   window.location.href = "https://factionizer.bovineghoti.repl.co/settings";
 }
 function addPlayer() {
-  alert("Player Name");
+  alert("TBD");
 }
 function confirmSettings(){
   alert("Confirm these settigns");

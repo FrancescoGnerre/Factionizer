@@ -9,12 +9,16 @@
   </head>
   <body>
     <h1>A website to automate the start/setup of TI4> games</h1>
-      <div>
-        <button type="button" onclick="addPlayer()">Add Player</button>
-        <button type="button" onclick="clearPlayersAll()">Clear Players</button>
-        <button type="button" onclick="startGame()">Start Game</button>
-        <button type="button" onclick="toSettings()">Settings</button>
-      </div>
+    <div>
+      <button type="button" onclick="addPlayer()">Add Player</button>
+      <button type="button" onclick="clearPlayersAll()">Clear Players</button>
+      <button type="button" onclick="startGame()">Start Game</button>
+      <button type="button" onclick="toSettings()">Settings</button>
+    </div>
+    <div>
+      <label for="player_n">New Player</label>
+      <input type="text" placeholder="Player Name" name="player_n" required>
+    </div>
      <div>
         {% for player in players %}
           {% include 'playerfor.html' %}
