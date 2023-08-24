@@ -11,3 +11,8 @@ h4 {
   font-weight: bold;
   color: rgb(31, 31, 127);
 }
+
+.remove_Player{
+  font-family: fantasy;
+  color: rgb(193,0,0);
+}

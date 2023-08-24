@@ -1,3 +1,4 @@
+<link href="../static/style.css" rel="stylesheet">
 <div class="row">
   <div class="col-9">
     <h4>{{player['p_name']}}</h4>
@@ -8,6 +9,6 @@
     <div> {{player['p_red_1']}}; {{player['p_red_2']}};</div>
   </div>
   <div class="col-3">
-    <button type="button">Remove Player</button>
+    <button class="remove_player" type="button" onclick="clearPlayer({{player['p_name']}})">Remove Player</button>
   </div>
 </div>

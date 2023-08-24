@@ -4,15 +4,16 @@
   <head>
     <title>Factionizer</title>
     <link href="../static/style.css" rel="stylesheet">
+    <script src="../static/script.js"></script>
     <link rel="icon" type="image/x-icon" href="../static/Mecatol_Rex.png">
   </head>
   <body>
-    <h1>A website to automate the start/setup of TI4 games</h1>
+    <h1>A website to automate the start/setup of TI4> games</h1>
       <div>
-        <button type="button">Add Player</button>
-        <button type="button">Clear Players</button>
-        <button type="button">Start Game</button>
-        <button type="button">Settings</button>
+        <button type="button" onclick="addPlayer()">Add Player</button>
+        <button type="button" onclick="clearPlayersAll()">Clear Players</button>
+        <button type="button" onclick="startGame()">Start Game</button>
+        <button type="button" onclick="toSettings()">Settings</button>
       </div>
      <div>
         {% for player in players %}
