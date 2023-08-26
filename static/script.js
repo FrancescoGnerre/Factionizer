@@ -5,7 +5,8 @@ function toSettings(){
   window.location.href = "https://factionizer.bovineghoti.repl.co/settings";
 }
 function addPlayer() {
-  alert("TBD");
+  var inputTXT = document.getElementById("add_new_player").value;
+  alert(inputTXT);
 }
 function confirmSettings(){
   alert("Confirm these settigns");
