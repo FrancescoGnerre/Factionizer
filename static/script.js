@@ -19,3 +19,9 @@ function clearPlayer(p_name) {
 function startGame() {
   alert("TBD");
 }
+function printTXT() {
+  alert("Printing as TXT");
+}
+function printPDF() {
+  alert("Printing as PDF");
+}
