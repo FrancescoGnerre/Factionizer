@@ -34,9 +34,8 @@ p_List = [{
 
 @app.route("/", methods=["GET", "POST"])
 def main_screen():
-  if request.method=="GET":
+  if request.method == "GET":
     return render_template('home.html', players=p_List)
-  
 
 
 @app.route("/api/players")
@@ -46,7 +45,7 @@ def list_players():
 
 @app.route("/settings", methods=["GET", "POST"])
 def settings_screen():
-  if request.method=="GET":
+  if request.method == "GET":
     return render_template('settings.html')
 
 

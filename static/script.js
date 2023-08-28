@@ -1,3 +1,5 @@
+var inputTXT = "";
+
 function toHome(){
   window.location.href = "https://factionizer.bovineghoti.repl.co/";
 }
@@ -5,7 +7,8 @@ function toSettings(){
   window.location.href = "https://factionizer.bovineghoti.repl.co/settings";
 }
 function addPlayer() {
-  var inputTXT = document.getElementById("add_new_player").value;
+  inputTXT = document.getElementById("add_new_player").value;
+  console.log(inputTXT);
   alert(inputTXT);
 }
 function confirmSettings(){
@@ -14,8 +17,9 @@ function confirmSettings(){
 function clearPlayersAll() {
   alert("TBD");
 }
-function clearPlayer(p_name) {
+function clearPlayerOne(p_name) {
   alert(p_name);
+  console.log(p_name);
 }
 function startGame() {
   alert("TBD");
