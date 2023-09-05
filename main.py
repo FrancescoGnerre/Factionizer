@@ -4,9 +4,10 @@ import json
 import jsonify
 
 app = Flask(__name__)
-#p_Open = open('jxt//players.json')
-#p_temp = json.load(p_Open)
+p_Open = open('jxt//players.json')
+p_List = json.load(p_Open)
 #p_List = json.loads(p_temp)
+"""
 p_List = [{
   "p_name": "Francesco",
   "p_faction_a": "A",
@@ -30,6 +31,7 @@ p_List = [{
 }, {
   "p_name": "Luciano"
 }]
+"""
 
 
 @app.route("/", methods=["GET", "POST"])
