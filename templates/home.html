@@ -11,11 +11,11 @@
     <h1>A website to automate the start/setup of TI4> games</h1>
     <div>
       <label for="player_n">New Player</label>
-      <input type="text" placeholder="Player Name" name="player_n" required>
+      <input type="text" id="add_new_player" placeholder="Player Name" name="player_n" required>
     </div>
     
     <div>
-      <button type="button" id="add_new_player" onclick="addPlayer()">Add Player</button>
+      <button type="button" onclick="addPlayer()">Add Player</button>
       <button type="button" onclick="clearPlayersAll()">Clear Players</button>
       <button type="button" onclick="startGame()">Start Game</button>
       <button type="button" onclick="toSettings()">Settings</button>

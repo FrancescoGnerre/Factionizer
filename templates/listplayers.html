@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!-- https://factionizer.bovineghoti.repl.co/settings -->
+
+<html>
+  <head>
+    <title>Factionizer</title>
+    <link href="../static/style.css" rel="stylesheet">
+    <script src="../static/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="../static/Mecatol_Rex.png">
+  </head>
+  <div>
+    {% for player in players %}
+      {% include 'playerfor.html' %}
+    {% endfor %}
+  </div>
+  <div>
+    <button type="button" onclick="toHome()">Home</button>
+  </div>
+</html>

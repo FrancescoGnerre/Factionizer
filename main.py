@@ -14,9 +14,9 @@ def main_screen():
     return render_template('home.html', players=p_List)
 
 
-@app.route("/api/players")
+@app.route("/listplayers")
 def list_players():
-  return jsonify(p_List)
+  return render_template('listplayers.html', players=p_List)
 
 
 @app.route("/settings", methods=["GET", "POST"])

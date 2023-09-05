@@ -23,6 +23,9 @@ function clearPlayerOne(p_name) {
 function startGame() {
   alert("TBD");
 }
+function printPlayers() {
+   window.location.href = "https://factionizer.bovineghoti.repl.co/listplayers";
+}
 function printTXT() {
   alert("Printing as TXT");
 }
