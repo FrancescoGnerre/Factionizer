@@ -18,8 +18,7 @@ function clearPlayersAll() {
   alert("TBD");
 }
 function clearPlayerOne(p_name) {
-  alert(p_name);
-  console.log(p_name);
+  alert("Removing " + p_name);
 }
 function startGame() {
   alert("TBD");
