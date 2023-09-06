@@ -21,10 +21,10 @@ function clearPlayerOne(p_name) {
   alert("Removing " + p_name);
 }
 function startGame() {
-  alert("TBD");
+  window.location.href = "https://factionizer.bovineghoti.repl.co/listplayers";
 }
 function printPlayers() {
-   window.location.href = "https://factionizer.bovineghoti.repl.co/listplayers";
+  window.location.href = "https://factionizer.bovineghoti.repl.co/listplayers";
 }
 function printTXT() {
   alert("Printing as TXT");
