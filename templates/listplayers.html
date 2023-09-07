@@ -11,7 +11,6 @@
   <div>
     {% for player in players %}
       {% include 'playerfor.html' %}
-    <button class="remove_player" type="button" onclick="clearPlayerOne('{{player['p_name']}}')">Remove Player</button>
     {% endfor %}
   </div>
   <div>
