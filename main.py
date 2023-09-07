@@ -1,9 +1,12 @@
 from flask import Flask, request, render_template
+from flask_sqlalchemy import SQLAlchemy
 from flask.helpers import url_for
 import json
 import jsonify
 
 app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+db = SQLAlchemy(app)
 #p_Open = open('jxt//players.json')
 #p_Open = open('test.json')
 #p_List = json.load(p_Open)
@@ -30,6 +33,14 @@ p_List = [{
 }, {
   "p_name": "Luciano"
 }]
+
+
+class Player(db.Model):
+  id = db.Column(db.Integer, primary_key=True)
+  player_name = db.Column(db.String(200), nullable=False)
+
+  def __repr__(self):
+    return '<Task %r>' % self.id
 
 
 @app.route("/", methods=["GET", "POST"])
