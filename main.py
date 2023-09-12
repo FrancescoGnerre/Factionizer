@@ -1,11 +1,11 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, url_for, redirect
 from flask_sqlalchemy import SQLAlchemy
 from flask.helpers import url_for
 import json
 import jsonify
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///players.db'
 db = SQLAlchemy(app)
 #p_Open = open('jxt//players.json')
 #p_Open = open('test.json')
@@ -45,8 +45,20 @@ class Player(db.Model):
 
 @app.route("/", methods=["GET", "POST"])
 def main_screen():
-  if request.method == "GET":
-    return render_template('home.html', players=p_List)
+  if request.method == "POST":
+    new_player_to_add = request.form['add_new_player']
+    new_player = Player(player_name=new_player_to_add)
+
+    try:
+      db.session.add(new_player)
+      db.session.commit()
+      return redirect("/")
+    except:
+      return "There was an error. Please try again."
+
+  else:
+    players_all = Player.query.order_by(Player.player_name).all()
+    return render_template('home.html', players=players_all)
 
 
 @app.route("/listplayers")
