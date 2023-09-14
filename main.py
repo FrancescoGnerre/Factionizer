@@ -58,7 +58,7 @@ def main_screen():
 
   else:
     players_all = Player.query.order_by(Player.player_name)
-    return render_template('home.html', players=p_List)
+    return render_template('home.html', players=players_all)
 
 
 @app.route("/listplayers")
