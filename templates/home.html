@@ -10,14 +10,11 @@
   <body>
     <h1>A website to automate the start/setup of TI4> games</h1>
     <div>
-      <label for="player_n">New Player</label>
-      <input type="text" id="add_new_player" placeholder="Player Name" name="player_n" required>
     </div>
-    
     <div>
       <form action="/" method="POST">
-        <input type="text" name="content" id="content"></input>
-        <input type="submit" name="add task" id="content"></input>
+        <label for="player_n">New Player</label>
+        <input type="text" id="add_new_player" placeholder="Player Name" name="player_n" required>
       </form>
       <button type="button" onclick="addPlayer()">Add Player</button>
       <button type="button" onclick="clearPlayersAll()">Clear Players</button>

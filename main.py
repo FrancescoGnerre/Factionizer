@@ -57,7 +57,7 @@ def main_screen():
       return "There was an error. Please try again."
 
   else:
-    players_all = Player.query.order_by(Player.player_name).all()
+    players_all = Player.query.order_by(Player.player_name)
     return render_template('home.html', players=p_List)
 
 
